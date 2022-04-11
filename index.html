@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            background-color: #5c92f7;
+        }
+        .myDiv{
+            margin: 50px 100px 50px 100px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; color:#ffffff ;">Build The Future Here</h1>
+    <p style="margin: 50px 100px 50px 100px; border: #5e5b5b; border-radius: 10px; color: #d3cfcf;">At W3Schools you will find complete references about HTML elements, attributes, events, color names, entities,
+        character-sets, URL encoding, language codes, HTTP messages, browser support, and more. In this HTML tutorial, you will find more than 200 examples. With our online "Try it Yourself" editor, you can edit and test each example yourself! At W3Schools you will
+        find complete references about HTML elements, attributes, events, color names, entities, character-sets, URL
+        encoding, language codes, HTTP messages, <b>browser</b> support, and <i>more</i></p>
+
+    <div class="myDiv">
+        <p><b>I want to make this bold</b></p>
+        <p><i>Italic style is like this</i></p>
+        <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+    </div>
+    <hr>
+    <h3 style="text-align: center;">---------------blockquote and cite example-------------------</h3>
+    <div class="myDiv">
+        <p>Here is a quote from WHO's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        </blockquote>
+    </div>
+
+    <hr>
+
+    <div class="myDiv">
+        <a href="https://www.w3schools.com/">Visit W3Schools.com!</a><br>
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br><br>
+        <img src="images/beauty.jpg" alt="beauty of bangladesh" width="640px" height="420px">
+        <br><br><br>
+        
+        <table style="border: 1px">
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Nike</td>
+              <td>Maria Albert</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Moctezuma Daniel</td>
+              <td>San Francisco</td>
+              <td>Mexico</td>
+            </tr>
+          </table>
+
+          <ul>
+              <li>Sunday</li>
+              <li>Monday</li>
+              <li>Tuesday</li>
+              <li>Wednesday</li>
+              <li>Thursday</li>
+              <li>Friday</li>
+              <li>Suturday</li>
+          </ul>
+
+          <ol>
+            <li>January</li>
+            <li>February</li>
+            <li>March</li>
+            <li>April</li>
+            <li>May</li>
+            <li>June</li>
+            <li>July</li>
+        </ol>
+    </div>
+    <div style="text-align: center;">
+        <p>The value attribute specifies an initial value for an input field:</p>
+
+            <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="Palash"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="Halder"><br><br>
+            <label for="email">Email::</label>
+            <input type="email" id="email" name="email" value="abc@gmail.com"><br><br>
+            <label for="mobile">Mobile:</label>
+            <input type="mobile" id="mobile" name="mobile" value="+8801200000000">
+            <br><br>
+            <label for="url">Website:</label>
+            <input type="url" id="url" name="url" value="www.abc.com">
+            <br><br>
+            <br>
+            <p>Please select your favorite Web language:</p>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">HTML</label>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">CSS</label>
+              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+              <label for="javascript">JavaScript</label><br>
+
+        <p>The value attribute specifies an initial value for an input field:</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a book</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a pencil</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a eraser</label><br><br>
+        <p>Dropdown Menu</p>
+            <input list="writers">
+            <datalist id="writers">
+              <option value="Anisul">
+              <option value="Humayn">
+              <option value="Rafiq">
+              <option value="Mahadev">
+              <option value="Nirmolendu">
+            </datalist>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
